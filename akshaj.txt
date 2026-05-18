@@ -1,0 +1,52 @@
+ 
+Akshaj Piri
+Bangalore, India
+
+Email | LinkedIn | GitHub
+PROJECTS
+Face Mask Detection — Developer 
+JUNE 2024
+- Built a CNN-based model to classify masked, unmasked, and partially masked faces
+- Implemented using Python and TensorFlow; evaluated model performance
+Image Scapper — Developer
+MAY 2024
+- Developed a tool to extract images from multiple web sources for dataset creation
+- Automated data collection pipeline for ML workflows
+Sixth Sense Mentor Labs — UX Designer
+MARCH 2023 - MAY 2023
+- Designed a mentoring platform to help parents guide children under 19
+- Conducted user research and created wireframes and prototypes in Figma
+SkateShop — UX Designer
+OCTOBER 2022 - DECEMBER 2022
+- Designed an e-commerce platform for customising and ordering skateboards
+- Developed user flows, wireframes, and interactive prototypes
+EDUCATION
+College Name, Location — Degree
+20XX - 20XX
+SKILLS
+
+Programming: Python, Julia  
+
+Data Science & Machine Learning:  
+Exploratory Data Analysis (EDA), Regression, Classification, Convolutional Neural Networks (CNNs)
+
+Tools & Technologies:  
+TensorFlow, Tableau  
+
+UX & Design:  
+User Research, Wireframing, Prototyping, Usability Testing, Design Systems  
+
+Design Tools:  
+Figma  
+
+CERTIFICATIONS
+
+Mathematics for Machine Learning and Data Science Specialisation 
+Google Advanced Data Analytics Professional Certificate 
+Google UX Design Professional Certificate 
+Julia Scientific Programming
+
+linkedin.com/in/akshajpiri
+
+github.com/akshajpiri
+
