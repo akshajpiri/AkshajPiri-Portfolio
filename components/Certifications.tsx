@@ -15,24 +15,24 @@ const certifications = [
 
 export default function Certifications() {
   return (
-    <section id="certifications" className="py-24 px-6 bg-black">
+    <section id="certifications" className="py-24 px-6 bg-canvas">
       <div className="max-w-5xl mx-auto">
         <div className="mb-12">
-          <p className="text-sm font-medium text-zinc-500 uppercase tracking-widest mb-2">
+          <p className="text-sm font-medium text-pine uppercase tracking-widest mb-2">
             Certifications
           </p>
-          <h2 className="text-3xl md:text-4xl font-bold text-white">Credentials</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-ink">Credentials</h2>
         </div>
 
         <div className="space-y-3">
           {certifications.map((cert) => (
             <div
               key={cert.name}
-              className="flex items-center gap-4 p-5 rounded-xl border border-zinc-800 bg-zinc-900 hover:border-zinc-600 transition-colors"
+              className="flex items-center gap-4 p-5 rounded-xl border border-line bg-surface hover:border-pine/40 transition-colors"
             >
-              <div className="w-9 h-9 rounded-full bg-zinc-800 flex items-center justify-center shrink-0">
+              <div className="w-9 h-9 rounded-full bg-pine/10 flex items-center justify-center shrink-0">
                 <svg
-                  className="w-4 h-4 text-zinc-300"
+                  className="w-4 h-4 text-pine"
                   viewBox="0 0 24 24"
                   fill="none"
                   stroke="currentColor"
@@ -42,9 +42,9 @@ export default function Certifications() {
                 </svg>
               </div>
               <div>
-                <p className="font-medium text-zinc-100 text-sm">{cert.name}</p>
+                <p className="font-medium text-ink text-sm">{cert.name}</p>
                 {cert.issuer && (
-                  <p className="text-xs text-zinc-500 mt-0.5">{cert.issuer}</p>
+                  <p className="text-xs text-dust mt-0.5">{cert.issuer}</p>
                 )}
               </div>
             </div>

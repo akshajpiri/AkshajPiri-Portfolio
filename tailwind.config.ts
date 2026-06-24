@@ -7,7 +7,19 @@ const config: Config = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        canvas:  '#F5F0E8',
+        surface: '#EDE8DF',
+        line:    '#D9D3C9',
+        ink:     '#1C1C1A',
+        dust:    '#6B6560',
+        pine: {
+          DEFAULT: '#2E4A5C',
+          dark:    '#253E50',
+        },
+      },
+    },
   },
   plugins: [],
 }

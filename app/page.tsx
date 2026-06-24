@@ -18,7 +18,7 @@ export default function Home() {
         <Certifications />
         <Contact />
       </main>
-      <footer className="py-8 px-6 text-center text-sm text-zinc-700 border-t border-zinc-900">
+      <footer className="py-8 px-6 text-center text-sm text-dust border-t border-line bg-canvas">
         <p>© {new Date().getFullYear()} Akshaj Piri · Bangalore, India</p>
       </footer>
     </>

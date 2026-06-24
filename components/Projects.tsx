@@ -51,33 +51,33 @@ const projects = [
 
 export default function Projects() {
   return (
-    <section id="projects" className="py-24 px-6 bg-black">
+    <section id="projects" className="py-24 px-6 bg-canvas">
       <div className="max-w-5xl mx-auto">
         <div className="mb-12">
-          <p className="text-sm font-medium text-zinc-500 uppercase tracking-widest mb-2">Projects</p>
-          <h2 className="text-3xl md:text-4xl font-bold text-white">What I&apos;ve built</h2>
+          <p className="text-sm font-medium text-pine uppercase tracking-widest mb-2">Projects</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-ink">What I&apos;ve built</h2>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
           {projects.map((project) => (
             <div
               key={project.title}
-              className="group p-6 rounded-2xl border border-zinc-800 bg-zinc-900 hover:border-zinc-600 transition-all duration-200"
+              className="group p-6 rounded-2xl border border-line bg-surface hover:border-pine/40 hover:shadow-sm transition-all duration-200"
             >
               <div className="flex items-start justify-between mb-3">
-                <h3 className="font-semibold text-zinc-100 text-lg group-hover:text-white transition-colors">
+                <h3 className="font-semibold text-ink text-lg group-hover:text-pine transition-colors">
                   {project.title}
                 </h3>
-                <span className="text-xs text-zinc-600 ml-3 mt-1 shrink-0">{project.date}</span>
+                <span className="text-xs text-dust ml-3 mt-1 shrink-0">{project.date}</span>
               </div>
 
-              <p className="text-zinc-500 text-sm leading-relaxed mb-4">{project.description}</p>
+              <p className="text-dust text-sm leading-relaxed mb-4">{project.description}</p>
 
               <div className="flex flex-wrap gap-2 mb-4">
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-2.5 py-1 bg-zinc-800 text-zinc-300 text-xs rounded-md font-medium"
+                    className="px-2.5 py-1 bg-pine/10 text-pine text-xs rounded-md font-medium"
                   >
                     {tag}
                   </span>
@@ -89,7 +89,7 @@ export default function Projects() {
                   href={project.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-1 text-sm font-medium text-zinc-400 hover:text-white transition-colors"
+                  className="inline-flex items-center gap-1 text-sm font-medium text-dust hover:text-pine transition-colors"
                 >
                   View on GitHub
                   <svg

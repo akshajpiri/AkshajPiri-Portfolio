@@ -24,14 +24,14 @@ export default function Navbar() {
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'bg-black/95 backdrop-blur-md border-b border-zinc-900'
+          ? 'bg-canvas/95 backdrop-blur-md border-b border-line'
           : 'bg-transparent'
       }`}
     >
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link
           href="/"
-          className="font-bold text-white tracking-tight hover:text-zinc-400 transition-colors"
+          className="font-bold text-ink tracking-tight hover:text-dust transition-colors"
         >
           AP.
         </Link>
@@ -41,7 +41,7 @@ export default function Navbar() {
             <a
               key={label}
               href={href}
-              className="text-sm text-zinc-500 hover:text-white transition-colors"
+              className="text-sm text-dust hover:text-ink transition-colors"
             >
               {label}
             </a>
@@ -49,7 +49,7 @@ export default function Navbar() {
         </nav>
 
         <button
-          className="md:hidden p-2 -mr-2 text-zinc-500 hover:text-white transition-colors"
+          className="md:hidden p-2 -mr-2 text-dust hover:text-ink transition-colors"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle navigation"
         >
@@ -78,13 +78,13 @@ export default function Navbar() {
       </div>
 
       {mobileOpen && (
-        <div className="md:hidden bg-black border-t border-zinc-900 px-6 py-4">
+        <div className="md:hidden bg-canvas border-t border-line px-6 py-4">
           <nav className="flex flex-col gap-4">
             {navLinks.map(({ label, href }) => (
               <a
                 key={label}
                 href={href}
-                className="text-sm text-zinc-400 hover:text-white transition-colors"
+                className="text-sm text-dust hover:text-ink transition-colors"
                 onClick={() => setMobileOpen(false)}
               >
                 {label}
