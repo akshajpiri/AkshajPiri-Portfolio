@@ -12,13 +12,13 @@ export default function About() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16 items-center">
           <div className="space-y-4">
             <p className="text-dust text-lg leading-relaxed">
-              I&apos;m a machine learning engineer and data scientist based in Bangalore, India — fascinated
-              by how data and technology create meaningful experiences. I build end-to-end ML systems, from
-              automated data pipelines and deep learning models to multi-agent AI orchestrations.
+              I&apos;m college student in Bangalore obsessed with two things: making sense of data and 
+              crafting experiences people love to use. I build ML models that actually work, and I design products 
+              people actually want to use. The intersection of those two skills is where I do my best work.
             </p>
             <p className="text-dust text-lg leading-relaxed">
-              Currently sharpening skills in Python, data visualisation, and generative AI, with a philosophy
-              of building tools that feel intuitive, smart, and minimal.
+              From training CNNs for real-time face detection to prototyping full UX flows in Figma, I bring a rare 
+              mix of technical depth and design thinking to every project.
             </p>
             <div className="pt-2 flex flex-wrap items-center gap-6">
               <a

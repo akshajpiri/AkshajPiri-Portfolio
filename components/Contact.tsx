@@ -9,8 +9,7 @@ export default function Contact() {
 
         <div className="max-w-lg">
           <p className="text-dust text-lg leading-relaxed mb-8">
-            Open to ML and data science opportunities, research collaborations, or just a good
-            conversation about AI. Reach out by email, LinkedIn, or explore my work on GitHub.
+           I'm actively looking for internships and freelance opportunities where I can contribute and grow fast. Reach out by email, LinkedIn, or explore my work on GitHub.
           </p>
 
           <div className="flex flex-col sm:flex-row flex-wrap gap-3">
