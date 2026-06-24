@@ -31,9 +31,9 @@ export default function Navbar() {
       <div className="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
         <Link
           href="/"
-          className="font-semibold text-white tracking-tight hover:text-zinc-400 transition-colors"
+          className="font-bold text-white tracking-tight hover:text-zinc-400 transition-colors"
         >
-          AP
+          AP.
         </Link>
 
         <nav className="hidden md:flex items-center gap-8">
