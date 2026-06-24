@@ -5,7 +5,29 @@
       "WebFetch(domain:github.com)",
       "Bash(gh api *)",
       "WebFetch(domain:raw.githubusercontent.com)",
-      "Bash(open *)"
+      "Bash(open *)",
+      "Bash(mkdir -p /Users/akshajpiri/Codebase/AkshajPiri-Website/app /Users/akshajpiri/Codebase/AkshajPiri-Website/components /Users/akshajpiri/Codebase/AkshajPiri-Website/public)",
+      "Bash(cp /Users/akshajpiri/Codebase/AkshajPiri-Website/AKSHAJPIRI_PHOTO.jpg /Users/akshajpiri/Codebase/AkshajPiri-Website/public/)",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "WebFetch(domain:www.linkedin.com)",
+      "Bash(curl *)",
+      "Bash(pkill -f \"next dev\")",
+      "Bash(node -e \"require\\('./next.config.js'\\)\")",
+      "Bash(lsof -iTCP -sTCP:LISTEN -P)",
+      "Bash(python3 -c ' *)",
+      "Bash(node -e \"require\\('playwright'\\)\")",
+      "Bash(npx playwright *)",
+      "Bash(s)",
+      "Bash('header')",
+      "Bash('img[alt=\\\\\"Akshaj Piri\\\\\"]')",
+      "Bash(node -e ' *)",
+      "Bash(npm init *)",
+      "Bash(PLAYWRIGHT_BROWSERS_PATH=/tmp/pw-browsers npx playwright install chromium)",
+      "Bash(PLAYWRIGHT_BROWSERS_PATH=/tmp/pw-browsers node /private/tmp/claude-501/-Users-akshajpiri-Codebase-AkshajPiri-Website/0a4fb653-9b14-4fe6-af73-125204b8b2ec/scratchpad/check.js)",
+      "Bash(PLAYWRIGHT_BROWSERS_PATH=/tmp/pw-browsers npm install @playwright/test)",
+      "Bash(PLAYWRIGHT_BROWSERS_PATH=/tmp/pw-browsers npx playwright install chromium --with-deps)",
+      "Bash(PLAYWRIGHT_BROWSERS_PATH=/tmp/pw-browsers node screenshot.js)"
     ]
   }
 }
