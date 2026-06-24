@@ -25,13 +25,13 @@ export default function Hero() {
             href="#projects"
             className="px-7 py-3.5 bg-pine text-white rounded-full font-medium hover:bg-pine-dark transition-colors text-sm"
           >
-            View My Work
+            View My Work.
           </a>
           <a
             href="#contact"
             className="px-7 py-3.5 border border-line text-dust rounded-full font-medium hover:border-dust hover:text-ink transition-colors text-sm"
           >
-            Get in Touch
+            Get in Touch.
           </a>
         </div>
       </div>
