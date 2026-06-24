@@ -17,7 +17,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg md:text-xl text-dust max-w-lg mx-auto mb-10 leading-relaxed">
-          ML Engineer &amp; Data Scientist — building intelligent systems from data pipelines to multi-agent AI.
+          Aspiring Engineer passionate about bridging the gap between data and design — building intelligent systems and user-centred experiences that matter.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
