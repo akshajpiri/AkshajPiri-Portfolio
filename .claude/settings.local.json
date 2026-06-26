@@ -27,7 +27,11 @@
       "Bash(PLAYWRIGHT_BROWSERS_PATH=/tmp/pw-browsers node /private/tmp/claude-501/-Users-akshajpiri-Codebase-AkshajPiri-Website/0a4fb653-9b14-4fe6-af73-125204b8b2ec/scratchpad/check.js)",
       "Bash(PLAYWRIGHT_BROWSERS_PATH=/tmp/pw-browsers npm install @playwright/test)",
       "Bash(PLAYWRIGHT_BROWSERS_PATH=/tmp/pw-browsers npx playwright install chromium --with-deps)",
-      "Bash(PLAYWRIGHT_BROWSERS_PATH=/tmp/pw-browsers node screenshot.js)"
+      "Bash(PLAYWRIGHT_BROWSERS_PATH=/tmp/pw-browsers node screenshot.js)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git pull *)",
+      "Bash(git push *)"
     ]
   }
 }
