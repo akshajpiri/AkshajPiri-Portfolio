@@ -62,7 +62,7 @@ export default function Projects() {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="group p-6 rounded-2xl border border-line bg-surface hover:border-pine/40 hover:shadow-sm transition-all duration-200"
+              className="group p-6 rounded-2xl border border-line bg-surface hover:border-pine/40 hover:ring-1 hover:ring-pine/20 transition-all duration-200"
             >
               <div className="flex items-start justify-between mb-3">
                 <h3 className="font-semibold text-ink text-lg group-hover:text-pine transition-colors">
@@ -77,7 +77,7 @@ export default function Projects() {
                 {project.tags.map((tag) => (
                   <span
                     key={tag}
-                    className="px-2.5 py-1 bg-pine/10 text-pine text-xs rounded-md font-medium"
+                    className="px-2.5 py-1 bg-pine/20 text-pine text-xs rounded-md font-medium"
                   >
                     {tag}
                   </span>

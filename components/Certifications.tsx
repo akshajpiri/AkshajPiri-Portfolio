@@ -30,7 +30,7 @@ export default function Certifications() {
               key={cert.name}
               className="flex items-center gap-4 p-5 rounded-xl border border-line bg-surface hover:border-pine/40 transition-colors"
             >
-              <div className="w-9 h-9 rounded-full bg-pine/10 flex items-center justify-center shrink-0">
+              <div className="w-9 h-9 rounded-full bg-pine/20 flex items-center justify-center shrink-0">
                 <svg
                   className="w-4 h-4 text-pine"
                   viewBox="0 0 24 24"

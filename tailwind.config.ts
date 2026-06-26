@@ -9,14 +9,14 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        canvas:  '#F5F0E8',
-        surface: '#EDE8DF',
-        line:    '#D9D3C9',
-        ink:     '#1C1C1A',
-        dust:    '#6B6560',
+        canvas:  '#181A20',
+        surface: '#1E2028',
+        line:    '#2A2D38',
+        ink:     '#F5F2EB',
+        dust:    '#9A968F',
         pine: {
-          DEFAULT: '#2E4A5C',
-          dark:    '#253E50',
+          DEFAULT: '#A37A5C',
+          dark:    '#8F6849',
         },
       },
     },

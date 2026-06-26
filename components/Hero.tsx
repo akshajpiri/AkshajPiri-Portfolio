@@ -7,7 +7,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-gradient-to-b from-surface/60 via-canvas to-canvas -z-10" />
 
       <div className="max-w-5xl mx-auto text-center">
-        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pine/10 text-pine text-sm font-medium mb-6 ring-1 ring-pine/20">
+        <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-pine/20 text-pine text-sm font-medium mb-6 ring-1 ring-pine/30">
           <span className="w-1.5 h-1.5 rounded-full bg-pine animate-pulse" />
           Bangalore, India
         </div>
