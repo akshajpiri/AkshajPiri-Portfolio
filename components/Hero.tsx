@@ -17,7 +17,7 @@ export default function Hero() {
         </h1>
 
         <p className="text-lg md:text-xl text-dust max-w-lg mx-auto mb-10 leading-relaxed">
-          Aspiring Engineer passionate about bridging the gap between data and design — building intelligent systems and user-centred experiences that matter.
+          Engineering Student passionate about bridging the gap between data and design — building intelligent systems and user-centred experiences that matter.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-3 justify-center">
